@@ -15,7 +15,7 @@ export class AppComponent {
 
 	constructor(
 	private earthquakeService: EarthquakeService) {
-		this.title = "Earthquakes past Day 4.5+ Mag";
+		this.title = "Earthquakes past Week 4.5+ Mag";
 	}
     ngOnInit() { 
         this.getEarthquakes(); 
